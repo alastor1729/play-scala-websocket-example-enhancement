@@ -1,0 +1,140 @@
+2020-01-08 08:10:29,079 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2020-01-08 08:10:29,081 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2020-01-08 08:10:29,082 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - Default Loggers started
+2020-01-08 08:10:29,097 [DEBUG] from akka.serialization.Serialization(akka://application) in application-akka.actor.default-dispatcher-4 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2020-01-08 08:10:29,098 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-08 08:10:29,098 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-08 08:10:29,098 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-08 08:10:29,099 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-08 08:10:29,099 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-08 08:10:29,099 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-08 08:10:29,101 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-08 08:10:29,102 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-08 08:10:29,102 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-08 08:10:29,103 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-08 08:10:29,103 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-08 08:10:29,103 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-08 08:10:29,103 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-08 08:10:29,105 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-4 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-08 08:10:29,416 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-5 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2020-01-08 08:10:29,432 [WARN] from play.filters.headers.SecurityHeadersConfig in play-dev-mode-akka.actor.default-dispatcher-5 - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2020-01-08 08:10:29,436 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-01-08 08:10:29,442 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2020-01-08 08:10:29,649 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-7 - New connection accepted
+2020-01-08 08:10:29,654 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-10 - New connection accepted
+2020-01-08 08:10:29,658 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-9 - New connection accepted
+2020-01-08 08:10:29,800 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-11 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-08 08:10:29,800 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-11 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-08 08:10:29,801 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-11 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-08 08:10:29,801 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-11 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-08 08:10:29,801 [DEBUG] from akka.actor.ActorSystemImpl in play-dev-mode-akka.actor.default-dispatcher-11 - Dispatcher id [akka.stream.materializer.blocking-io-dispatcher] is an alias, actual dispatcher will be [akka.actor.default-blocking-io-dispatcher]
+2020-01-08 08:10:29,839 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-9 - New connection accepted
+2020-01-08 08:10:29,868 [DEBUG] from controllers.HomeController in play-dev-mode-akka.actor.default-dispatcher-10 - originCheck: originValue = http://localhost:9000
+2020-01-08 08:10:29,872 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-6 - actor [akka://application/user/userParentActor] received message: Create(8,Actor[akka://application/temp/$a#0])
+2020-01-08 08:10:29,875 [INFO] from actors.UserParentActor$ in application-akka.actor.default-dispatcher-6 - Creating user actor userActor-8 with default stocks List(GOOG, AAPL, ORCL)
+2020-01-08 08:10:29,896 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-4 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(GOOG, AAPL, ORCL),Actor[akka://application/temp/$b#0])
+2020-01-08 08:10:29,906 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(GOOG)
+2020-01-08 08:10:29,929 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(AAPL)
+2020-01-08 08:10:29,931 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock(ORCL)
+2020-01-08 08:10:37,379 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-9 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(FB),Actor[akka://application/temp/$c#0])
+2020-01-08 08:10:37,380 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-10 - Adding stock Stock(FB)
+2020-01-08 08:10:44,565 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-8 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(FB),Actor[akka://application/temp/$d#0])
+2020-01-08 08:10:53,280 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-4 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(),Actor[akka://application/temp/$e#0])
+2020-01-08 08:10:53,281 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Adding stock Stock()
+2020-01-08 08:11:04,037 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-5 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(),Actor[akka://application/temp/$f#0])
+2020-01-08 08:11:05,185 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-12 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(),Actor[akka://application/temp/$g#0])
+2020-01-08 08:11:05,547 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-5 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(),Actor[akka://application/temp/$h#0])
+2020-01-08 08:11:05,856 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-7 - actor [akka://application/user/stocksActor] received message: GetStocks(Set(),Actor[akka://application/temp/$i#0])
+2020-01-08 08:11:45,126 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-31 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52616 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-08 08:11:45,133 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-10 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52618 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-08 08:11:45,134 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-10 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52617 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-08 08:11:45,255 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52613 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-08 08:11:45,255 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-11 - Aborting tcp connection to /0:0:0:0:0:0:0:1:52612 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75 seconds. This is configurable by akka.http.[server|client].idle-timeout.
+2020-01-08 08:11:51,829 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Starting coordinated shutdown from JVM shutdown hook
+2020-01-08 08:11:51,831 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Running CoordinatedShutdown with reason [JvmExitReason]
+2020-01-08 08:11:51,831 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Performing phase [before-service-unbind] with [1] tasks.
+2020-01-08 08:11:51,832 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Performing task [trace-server-stop-request] in CoordinatedShutdown phase [before-service-unbind]
+2020-01-08 08:11:51,832 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2020-01-08 08:11:51,838 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Performing phase [service-unbind] with [1] tasks.
+2020-01-08 08:11:51,838 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-11 - Performing task [akka-http-server-unbind] in CoordinatedShutdown phase [service-unbind]
+2020-01-08 08:11:51,839 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-11 - Unbinding endpoint /0:0:0:0:0:0:0:0:9000
+2020-01-08 08:11:51,841 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-10 - Unbound endpoint /0:0:0:0:0:0:0:0:9000, stopping listener
+2020-01-08 08:11:51,842 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [service-requests-done] with [0] tasks
+2020-01-08 08:11:51,842 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [service-stop] with [1] tasks.
+2020-01-08 08:11:51,842 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing task [shutdown-application-dev-mode] in CoordinatedShutdown phase [service-stop]
+2020-01-08 08:11:51,933 [WARN] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Task [shutdown-application-dev-mode] failed in phase [service-stop]: Unexpected exception[MatchError: org.apache.logging.log4j.simple.SimpleLoggerContext@7d6b42df (of class org.apache.logging.log4j.simple.SimpleLoggerContext)]
+2020-01-08 08:11:51,933 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [before-cluster-shutdown] with [0] tasks
+2020-01-08 08:11:51,933 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2020-01-08 08:11:51,933 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [cluster-leave] with [0] tasks
+2020-01-08 08:11:51,933 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [cluster-exiting] with [0] tasks
+2020-01-08 08:11:51,933 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [cluster-exiting-done] with [0] tasks
+2020-01-08 08:11:51,934 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [cluster-shutdown] with [0] tasks
+2020-01-08 08:11:51,934 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing phase [before-actor-system-terminate] with [2] tasks.
+2020-01-08 08:11:51,934 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing task [user-provided-server-stop-hook] in CoordinatedShutdown phase [before-actor-system-terminate]
+2020-01-08 08:11:51,934 [DEBUG] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-10 - Performing task [shutdown-logger] in CoordinatedShutdown phase [before-actor-system-terminate]
+2020-01-08 08:11:54,195 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2020-01-08 08:11:54,195 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [before-service-unbind] with [0] tasks
+2020-01-08 08:11:54,196 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [service-unbind] with [0] tasks
+2020-01-08 08:11:54,196 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [service-requests-done] with [0] tasks
+2020-01-08 08:11:54,196 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [service-stop] with [1] tasks.
+2020-01-08 08:11:54,196 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing task [application-lifecycle-stophook] in CoordinatedShutdown phase [service-stop]
+2020-01-08 08:11:54,210 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [before-cluster-shutdown] with [0] tasks
+2020-01-08 08:11:54,211 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [cluster-sharding-shutdown-region] with [0] tasks
+2020-01-08 08:11:54,211 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [cluster-leave] with [0] tasks
+2020-01-08 08:11:54,211 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [cluster-exiting] with [0] tasks
+2020-01-08 08:11:54,212 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [cluster-exiting-done] with [0] tasks
+2020-01-08 08:11:54,212 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [cluster-shutdown] with [0] tasks
+2020-01-08 08:11:54,212 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [before-actor-system-terminate] with [1] tasks.
+2020-01-08 08:11:54,213 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing task [force-reload] in CoordinatedShutdown phase [before-actor-system-terminate]
+2020-01-08 08:11:54,213 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing phase [actor-system-terminate] with [1] tasks.
+2020-01-08 08:11:54,213 [DEBUG] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-14 - Performing task [terminate-system] in CoordinatedShutdown phase [actor-system-terminate]
+2020-01-08 08:11:54,219 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-14 - actor [akka://application/user/stocksActor] received signal: PostStop
+2020-01-08 08:11:54,219 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-8 - Stopping actor Actor[akka://application/user/userParentActor/userActor-8#-1247238998]
+2020-01-08 08:11:54,222 [DEBUG] from akka.actor.typed.internal.LogMessagesInterceptor in application-akka.actor.default-dispatcher-4 - actor [akka://application/user/userParentActor] received signal: PostStop
+2020-01-08 08:11:54,224 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - shutting down: StandardOutLogger
+2020-01-08 08:11:54,349 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2020-01-08 08:11:54,350 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-6 - logger log1-Slf4jLogger started
+2020-01-08 08:11:54,350 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-6 - Default Loggers started
+2020-01-08 08:11:54,370 [DEBUG] from akka.serialization.Serialization(akka://application) in application-akka.actor.default-dispatcher-6 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2020-01-08 08:11:54,371 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-08 08:11:54,371 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-08 08:11:54,371 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-08 08:11:54,371 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-08 08:11:54,372 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-08 08:11:54,372 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-6 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-08 08:11:54,373 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-08 08:11:54,374 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [akka.serialization.jackson.AkkaJacksonModule]
+2020-01-08 08:11:54,374 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [akka.serialization.jackson.AkkaTypedJacksonModule]
+2020-01-08 08:11:54,375 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [akka.serialization.jackson.AkkaStreamJacksonModule]
+2020-01-08 08:11:54,375 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+2020-01-08 08:11:54,375 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [com.fasterxml.jackson.datatype.jdk8.Jdk8Module]
+2020-01-08 08:11:54,375 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [com.fasterxml.jackson.datatype.jsr310.JavaTimeModule]
+2020-01-08 08:11:54,375 [DEBUG] from akka.serialization.jackson.JacksonObjectMapperProvider$ in application-akka.actor.default-dispatcher-7 - Registered Jackson module [com.fasterxml.jackson.module.scala.DefaultScalaModule]
+2020-01-08 08:11:54,395 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-11 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2020-01-08 08:11:54,398 [WARN] from play.filters.headers.SecurityHeadersConfig in play-dev-mode-akka.actor.default-dispatcher-11 - play.filters.headers.contentSecurityPolicy is deprecated in 2.7.0.  Please use play.filters.csp.CSPFilter instead.
+2020-01-08 08:11:54,398 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2020-01-08 08:11:54,400 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev) (no global state)
